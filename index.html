@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><span class="highlight">PORTOFOLIO</span></h1>
+    </header>
+
+    <section class="about">
+        <h2>Syahreza Dwi Mahardika</h2>
+        <p class="aka">Fresh Graduate</p>
+        <div class="about-content">
+            <img src="foto.png" alt="Geraldine DeRuiter" class="about-img">
+            <div class="quote-box">
+                <p class="quote">
+                    “I'm a fresh graduate of Informatics Engineering from Gunadarma University in 2024, with an interest in web and Android application development. Committed to continuous learning and seeking 
+                    new experiences in the technology field. Solution-oriented and capable of self-directed learning.”
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="resume">
+        <h2>Resume</h2>
+        <div class="resume-container">
+            <div class="resume-left">
+                <div class="resume-section">
+                    <h3>Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4>Bachelor of Computer Science</h4>
+                            <p><strong>August 2020 - August 2024</strong></p>
+                            <p><em>Gunadarma University, Indonesia</em></p>
+                            <p>GPA: 3.75/4.00</p>
+                            <p>Final Project: Android App for Bali Tribe Introduction</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="resume-section">
+                    <h3>Work Experience</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4>Internship - Bekasi City Government</h4>
+                            <p><strong>June 2019 - August 2019</strong></p>
+                            <p> Managed and recorded financial transactions using Microsoft Excel.</p>
+                            <p> Processed incoming and outgoing letters.</p>
+                            <p> Assisted in drafting official documents.</p>
+                            <p> Enhanced efficiency in data processing and documentation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resume-right">
+                <div class="resume-section">
+                    <h3>Certification</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <p><strong>Occupation Junior Web Programmer</strong></p>
+                            <p>Badan Nasional Sertifikasi Profesi, 2024.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <p><strong>Test of English for International Communication</strong></p>
+                            <p>Educational Testing Service, 605, 2019.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <p><strong>Test of English Proficiency and Skill</strong></p>
+                            <p>Neo Spectra, 470, 2024.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="resume-section">
+                    <h3>Skills</h3>
+                    <div class="timeline-item">
+                        <strong>Administration:</strong> Microsoft Office (Word, Excel, PowerPoint)
+                    </div>
+                    <div class="timeline-item">
+                        <strong>Database & Information Systems:</strong> Basic understanding of databases and information systems
+                    </div>
+                    <div class="timeline-item">
+                        <strong>Programming:</strong> Basic knowledge of Java, PHP, HTML
+                    </div>
+                    <div class="timeline-item">
+                        <strong>Soft Skills:</strong> Time Management, Problem Analysis, Problem-Solving, Responsiveness, and Teamwork
+                    </div>
+                    <div class="timeline-item">
+                        <strong>Languages:</strong> Indonesian (Fluent), English (Passive)
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="project">
+        <h2>Project</h2>
+        <div class="gallery">
+            <div class="image-container">
+            <img src="a.jpeg" onclick="openModal(0)">
+            <div class="overlay">Project Android</div>
+        </div>
+        </div>
+    
+        <!-- Modal -->
+        <div id="modal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modalImage" class="modal-content">
+            <a class="prev" onclick="changeImage(-1)">&#10094;</a>
+            <a class="next" onclick="changeImage(1)">&#10095;</a>
+        </div>
+    
+        <script src="script.js"></script>
+    </section>
+    
